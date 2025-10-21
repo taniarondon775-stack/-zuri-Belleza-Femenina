@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Empresarial - Úzuri Belleza Femenina</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background-color: #f8c9d4; /* Rosa pastel suave */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #5a4b4b;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+      background-color: white;
+      padding: 15px 25px;
+      border-radius: 50px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+      margin-right: 15px;
+    }
+
+    h1 {
+      font-size: 1.5em;
+      color: #e68ca1;
+      text-align: center;
+      margin: 0;
+    }
+
+    .pdf-container {
+      background-color: white;
+      border-radius: 20px;
+      width: 90%;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    iframe {
+      width: 100%;
+      height: 80vh;
+      border: none;
+      border-radius: 15px;
+    }
+
+    .download-btn {
+      background-color: white;
+      color: #e68ca1;
+      border: 2px solid #e68ca1;
+      padding: 10px 25px;
+      font-size: 1em;
+      font-weight: bold;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      margin-bottom: 50px;
+    }
+
+    .download-btn:hover {
+      background-color: #e68ca1;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: white;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Úzuri Belleza Femenina">
+    <h1>Proyecto Empresarial - Úzuri Belleza Femenina</h1>
+  </header>
+
+  <div class="pdf-container">
+    <iframe src="proyecto.pdf"></iframe>
+  </div>
+
+  <a class="download-btn" href="proyecto.pdf" download>Descargar Proyecto</a>
+
+  <footer>© 2025 Úzuri Belleza Femenina - Zipaquirá, Colombia</footer>
+</body>
+</html>
